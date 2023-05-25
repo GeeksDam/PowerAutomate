@@ -1,0 +1,60 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "TimeStatic",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "app.timetastic.co.uk",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/api/holidays": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "operationId": "GetHoliday",
+        "summary": "Get",
+        "description": "Getttt",
+        "parameters": [
+          {
+            "name": "Start",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "End",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "API Key": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "Authorization"
+    }
+  },
+  "security": [
+    {
+      "API Key": []
+    }
+  ],
+  "tags": []
+}
