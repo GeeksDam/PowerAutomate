@@ -21,9 +21,9 @@
             "schema": {}
           }
         },
-        "operationId": "GetHoliday",
-        "summary": "Get",
-        "description": "Getttt",
+        "operationId": "GetDailyHolidayList",
+        "summary": "GetDaily",
+        "description": "Get",
         "parameters": [
           {
             "name": "Start",
